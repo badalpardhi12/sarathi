@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "${workspaceFolder}/.sarathi/bin/python",
+    "python.venvPath": "${workspaceFolder}/.sarathi"
+}

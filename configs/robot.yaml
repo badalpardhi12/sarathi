@@ -1,0 +1,4 @@
+robot:
+  ip: 192.168.0.100
+safety:
+  speed_deg_per_s: 5
