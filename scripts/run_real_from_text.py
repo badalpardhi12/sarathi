@@ -1,7 +1,7 @@
 import yaml, math
 import numpy as np
 from transforms3d.euler import mat2euler
-from lang.parse_pose import parse_instruction, target_from_spherical
+from skills.text_to_pose import parse_instruction, target_from_spherical
 from robot.meca_iface import Meca500
 
 cfg = yaml.safe_load(open("configs/robot.yaml"))

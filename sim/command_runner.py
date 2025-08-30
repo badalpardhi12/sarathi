@@ -1,5 +1,5 @@
 import numpy as np, genesis as gs
-from lang.parse_pose import parse_instruction, target_from_spherical
+from skills.nl_to_pose import parse_instruction, target_from_spherical
 
 def run_command(text):
     az, roll, el, r = parse_instruction(text)
