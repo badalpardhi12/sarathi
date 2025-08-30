@@ -61,13 +61,13 @@ python scripts/run_real_from_text.py "Move to home position"
 ```
 
 ## Key Components
-- **Robot Interface**: [`robot/meca_iface.py`](robot/meca_iface.py:1)
-- **Motion Execution**: [`control/execute_sim.py`](control/execute_sim.py:1)
-- **Object Perception**: [`perception/resolve_object.py`](perception/resolve_object.py:1)
-- **Text-to-Pose Conversion**: [`skills/text_to_pose.py`](skills/text_to_pose.py:1)
+- **Robot Interface**: [`robot/meca_iface.py`](robot/meca_iface.py)
+- **Motion Execution**: [`control/execute_sim.py`](control/execute_sim.py)
+- **Object Perception**: [`perception/resolve_object.py`](perception/resolve_object.py)
+- **Text-to-Pose Conversion**: [`skills/text_to_pose.py`](skills/text_to_pose.py)
 
 ## Configuration
-Modify robot parameters in [`configs/robot.yaml`](configs/robot.yaml:1)
+Modify robot parameters in [`configs/robot.yaml`](configs/robot.yaml)
 
 ## License
 [Specify license here - MIT/Apache 2.0 recommended for robotics projects]
